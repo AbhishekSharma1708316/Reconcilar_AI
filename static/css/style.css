@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #1a1a1a, #000);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.brand {
+    text-align: left;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin-top: 60px;
+    line-height: 1.3;
+}
+
+h1 span {
+    color: #bfbfbf;
+}
+
+.subtitle {
+    max-width: 700px;
+    margin: 25px auto;
+    opacity: 0.75;
+    line-height: 1.6;
+}
+
+.logo-circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.status {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 40px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    opacity: 0.85;
+}
+
+.feature span {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+.logo {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;        /* adjust if needed */
+    height: auto;
+    opacity: 0.95;
+}
+/* Company blue box */
+.company-box {
+    margin: 40px auto 25px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    width: fit-content;
+    background: linear-gradient(135deg, #2c7be5, #1fa2ff);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo inside box */
+.company-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 4px;
+}
+
+/* Text inside box */
+.company-text h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.company-text p {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+/* CTA Button */
+.cta-btn {
+    margin-top: 15px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2c7be5, #2ecc71);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+/* Popup background */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Popup box */
+.popup-content {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    width: 90%;
+    max-width: 380px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Popup text */
+.popup-content h3 {
+    margin-bottom: 10px;
+    color: #22c55e;
+}
+
+.popup-content p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+/* Popup button */
+.popup-content button {
+    margin-top: 15px;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, #2c7be5, #2ecc71);
+}
+
+

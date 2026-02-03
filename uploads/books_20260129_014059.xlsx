@@ -1,0 +1,26 @@
+date,Particulars,,Vch Type,Vch No.,Debit,Credit
+2024-04-01 00:00:00,Cr,Opening Balance,,,138213.96,
+2024-04-02 00:00:00,Cr,M/s Wpil Limited,Receipt,1,117939,
+2024-04-02 00:00:00,Dr,Bansal Sales Corporation,Payment,1,,7600
+2024-04-04 00:00:00,Dr,Dinesh File Products Llp,Payment,2,,20966
+2024-04-05 00:00:00,Dr,Sneh Stationery Products,Payment,3,,14236
+2024-04-05 00:00:00,Cr,Shinryo Suvidha Engineers India Private Limited,Receipt,2,27010,
+2024-04-05 00:00:00,Cr,Batliboi Ltd,Receipt,3,3304,
+2024-04-06 00:00:00,Dr,Ramesh Brothers,Payment,4,,4440
+2024-04-06 00:00:00,Cr,M/s the Delhi Flour Mills Company Ltd-UP,Receipt,4,28295,
+2024-04-08 00:00:00,Dr,Sneh Stationery Products,Payment,5,,14381
+2024-04-08 00:00:00,Dr,East Delhi Stationery Mart,Payment,6,,42890
+2024-04-11 00:00:00,Cr,Siemens Limited,Receipt,5,15626,
+2024-04-15 00:00:00,Dr,Satyam Sales Corporation,Payment,8,,15935
+2024-04-17 00:00:00,Dr,Sneh Stationery Products,Payment,9,,12053
+2024-04-18 00:00:00,Dr,Kwality Paper Products,Payment,10,,1445
+2024-04-18 00:00:00,Dr,Atul Paper Pvt Ltd,Payment,11,,6600
+2024-04-19 00:00:00,Cr,Elm Enterprises Private Limited,Receipt,6,42398,
+2024-04-20 00:00:00,Cr,The Delhi Flour Mills Co. Ltd.,Receipt,7,18135,
+2024-04-21 00:00:00,Dr,GST,Payment,12,,8786
+2024-04-23 00:00:00,Cr,Eresolution Consultancy Services Private Limited,Receipt,8,7634,
+2024-04-24 00:00:00,Dr,Ramesh Brothers,Payment,13,,3068
+2024-04-24 00:00:00,Dr,East Delhi Stationery Mart,Payment,14,,62536
+2024-04-29 00:00:00,Dr,Lic,Payment,15,,817
+2024-04-29 00:00:00,Dr,Sneh Stationery Products,Payment,16,,16934
+2024-04-30 00:00:00,Dr,Bansal Sales Corporation,Payment,17,,9244

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReconCiler AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<!-- Success Popup -->
+<div id="successPopup" class="popup">
+    <div class="popup-content">
+        <h3>✅ Request Sent</h3>
+        <p>Your request has been sent successfully.<br>
+           We’ll reach you soon.</p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+<script>
+function showPopup() {
+    document.getElementById("successPopup").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("successPopup").style.display = "none";
+}
+</script>
+
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h4 class="brand">ReconCiler AI</h4>
+    </header>
+
+    <main>
+        <h1>We're Building a New Standard<br>
+            <span>in Reconciliation Intelligence</span>
+        </h1>
+        <h5>Build for Chartered Accountants,Audit Firms and Finance Team</h5>
+        <p class="subtitle">
+            Our advanced reconciliation and compliance intelligence platform
+            is currently in development. Check back soon to learn more about
+            early access opportunities.
+        </p>
+    <div class="company-box">
+         <img src="{{ url_for('static', filename='images/reconilarlogo.png') }}" class="company-logo" alt="ReconCiler AI">
+
+        <div class="company-text">
+          <h3>ReconCiler AI Pvt Ltd</h3>
+            <p>
+             Indian private limited company working with practicing<br>
+             Chartered Accountants
+            </p>
+        </div>
+    </div>
+
+   <button class="cta-btn" onclick="showPopup()">Request Early Access</button>
+
+
+
+      
+
+
+        <p class="status">We're currently in development.</p>
+        <p class="contact">
+            For inquiries, reach out to<br>
+            <a href="mailto:contact@reconciler.ai">contact@reconciler.ai</a>
+        </p>
+    </main>
+
+    <section class="features">
+        <div class="feature">
+            🔒
+            <span>Security & Control</span>
+             <span>MSME's grade Data handling</span>
+        </div>
+        <div class="feature">
+            📊
+            <span>Advanced Analytics</span>
+            <span>Mismatch and Anomaly detection</span>
+        </div>
+        <div class="feature">
+            📄
+            <span>Audit-Aligned Design</span>
+            <span>Built for Audit workflows</span>
+        </div>
+        <div class="feature">
+            🛡️
+            <span>Compliance Readiness</span>
+            <span>GST and stratutory checks roadmap</span>
+        </div>
+    </section>
+
+    <footer>
+        ReconCiler AI Private Limited © 2026 · All rights reserved
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
